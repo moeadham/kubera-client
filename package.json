@@ -1,6 +1,7 @@
 {
   "name": "kubera-client",
   "version": "0.0.1",
+  "private": false,
   "description": "Unofficial client for the kubera.com API",
   "main": "index.js",
   "scripts": {
