@@ -1,0 +1,30 @@
+{
+  "name": "kubera-client",
+  "version": "0.0.1",
+  "description": "Unofficial client for the kubera.com API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/moeadham/kubera-client.git"
+  },
+  "keywords": [
+    "kubera"
+  ],
+  "author": "Moe Adham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moeadham/kubera-client/issues"
+  },
+  "homepage": "https://github.com/moeadham/kubera-client#readme",
+  "dependencies": {
+    "axios": "^1.7.8"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "^10.8.2",
+    "nock": "^13.5.6"
+  }
+}
